@@ -1,13 +1,14 @@
 /*==============================================================================
 Project: Bulk Synchronous Farm (BSF)
 Theme: BSF Skeleton
-Module: BSF-Data.h (BSF Data)
+Module: BSF-Data.h (Problem Independent Variables & Data Structures)
 Prefix: BD
 Author: Nadezhda A. Ezhova 
 Supervisor: Leonid B. Sokolinsky
 This source code is a part of BSF Skeleton
 ==============================================================================*/
-
+#include "BSF-Include.h"	// Problem Independent "Include" Files
+#include "BSF-Types.h"		// Problem Independent Types
 // ========================= Constants ========================
 #define BD_EXIT	true			// End of Work
 // ========================= Variables ========================
@@ -22,14 +23,6 @@ static bool BD_exit;			// Indicator of ending the process
 static bool BD_success;			// Indicator of Successfulness of User Function Execution
 // ========================= Time Variables ========================
 static double BD_t;				// Total time
-static double BD_t_s_L;			// Sending time per one worker (including latency)
-static double BD_t_S;			// Total sending time
-static double BD_t_r_L;			// Receiving time per one worker (including latency)
-static double BD_t_L;			// Latency
-static double BD_t_W;			// Map time
-static double BD_t_A_w;			// Total worker reduce time
-static double BD_t_A_m;			// Total master reduce time
-static double BD_t_p;
 static int BD_iterCount;
 // ========================= Data stuctures ========================
 static PT_bsf_data_T BD_data;

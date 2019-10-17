@@ -1,7 +1,7 @@
 /*==============================================================================
 Project: Bulk Synchronous Farm (BSF)
 Theme: BSF Skeleton
-Module: BSF-Implementation.cpp (Implementation of BSF Skeleton)
+Module: BSF-Code.cpp (Implementation of BSF Skeleton)
 Prefix: BI
 Author: Nadezhda A. Ezhova 
 Supervisor: Leonid B. Sokolinsky

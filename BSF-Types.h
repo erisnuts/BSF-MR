@@ -9,7 +9,6 @@ This source code is a part of BSF Skeleton
 ==============================================================================*/
 #pragma once
 #include "Problem-bsfTypes.h"	// Predefined BSF Problem Types
-
 //=========================== BSF Types ===============================
 struct BT_order_T {  
 	char exit;		// true, if worker must stop

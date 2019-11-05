@@ -8,9 +8,7 @@ Supervisor: Leonid B. Sokolinsky
 This source code is a part of BSF Skeleton
 ==============================================================================*/
 #pragma once
-#include "Problem-bsfParameters.h"	// Predefined Problem Parameters
-#include "Problem-Parameters.h"		// Problem Parameters
-
+#include "Problem-Parameters.h"		// Problem Parameters 
 //=========================== BSF Types =========================
 struct PT_bsf_data_T {				// Data for workers (current approximation)
 	// Pointers are not allowed here

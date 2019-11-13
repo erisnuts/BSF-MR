@@ -3,7 +3,7 @@ Project: Bulk Synchronous Farm (BSF)
 Theme: BSF Skeleton
 Module: BSF-Code.cpp (Problem Independent Code)
 Prefix: BI
-Author: Nadezhda A. Ezhova 
+Author: Nadezhda A. Ezhova
 Supervisor: Leonid B. Sokolinsky
 This source code is a part of BSF Skeleton
 ==============================================================================*/
@@ -11,6 +11,7 @@ This source code is a part of BSF Skeleton
 #include "BSF-Forwards.h"           // Problem Independent Function Forwards
 #include "BSF-ProblemFunctions.h"   // Predefined Problem Function Forwards
 #include "Problem-bsfParameters.h"  // Predefined Problem Parameters
+
 using namespace std;
 
 int main(int argc, char *argv[]) {

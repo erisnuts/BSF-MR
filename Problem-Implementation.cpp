@@ -8,15 +8,16 @@ Supervisor: Leonid B. Sokolinsky
 This source code is a part of BSF Skeleton
 ==============================================================================*/
 
-#include "Problem-Include.h"    // Problem "Include" Files
-#include "Problem-bsfTypes.h"    // Predefined BSF Problem Types
-#include "Problem-Types.h"      // Problem Types
-#include "Problem-Data.h"      // Problem Data
-#include "Problem-Forwards.h"    // Problem Function Forwards
+#include "Problem-Include.h"        // Problem "Include" Files
+#include "Problem-bsfTypes.h"       // Predefined BSF Problem Types
+#include "Problem-Types.h"          // Problem Types
+#include "Problem-Data.h"           // Problem Data
+#include "Problem-Forwards.h"       // Problem Function Forwards
 #include "Problem-bsfParameters.h"  // BSF Skeleton Parameters
+
 using namespace std;
 
-void PI_bsf_Init(bool* success) { // success=false if initialization is unsuccessful
+void PI_bsf_Init(bool* success) {   // success=false if initialization is unsuccessful
   cout << setprecision(PP_BSF_PRECISION);
   //...
 }; 

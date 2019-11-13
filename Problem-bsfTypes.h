@@ -8,16 +8,16 @@ Supervisor: Leonid B. Sokolinsky
 This source code is a part of BSF Skeleton
 ==============================================================================*/
 #pragma once
-#include "Problem-Parameters.h"		// Problem Parameters 
+#include "Problem-Parameters.h"    // Problem Parameters
 //=========================== BSF Types =========================
-struct PT_bsf_data_T {				// Data for workers (current approximation)
-	// Pointers are not allowed here
+struct PT_bsf_data_T {        // Data for workers (current approximation)
+  // Pointers are not allowed here
 };
 
-struct PT_bsf_mapElem_T {			// Element of map list
-	// Pointers are not allowed here
+struct PT_bsf_mapElem_T {      // Element of map list
+  // Pointers are not allowed here
 };
 
-struct PT_bsf_reduceElem_T {		// Element of reduce list	
-	// Pointers are not allowed here
+struct PT_bsf_reduceElem_T {    // Element of reduce list
+  // Pointers are not allowed here
 };
